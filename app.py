@@ -53,3 +53,4 @@ service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
 index = construct_index("docs")
 
 iface.launch(share=True)
+
